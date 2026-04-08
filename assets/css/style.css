@@ -424,10 +424,9 @@ body {
         font-size: 13px;
     }
 
-
     .Footer {
     background-image: url(../images/Group\ 8.webp);
-    margin-top: 285px;
+    margin-top: 230px;
     }
     .Footer_Info {
     width: 100%;
@@ -455,7 +454,7 @@ body {
     }
     .Footer .Footer_Data .Footer_Apps {
     gap: 12px;
-    margin-top: 12px;
+    margin-top: 5px;
     }
    .Footer .Footer_Data .Footer_Apps div {
         width: 155px;
