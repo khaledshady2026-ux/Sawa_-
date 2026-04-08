@@ -284,42 +284,51 @@ body {
     position: relative;
     top: 130px;
     }
-    .Hero-section .Hero_Data .Hero_Img img {
-    width: 150px;
-    }
+     .Hero-section .Hero_Data .Hero_Img img{
+        width: 122px;
+    
+     }
+       .Hero-section .Hero_Data .Hero_Info {
+        width: 100%;
+        display: block;
+       }
+
     
     .Hero-section .Hero_Data .Hero_Info {
       width: 283px;;
     }
-    .Hero-section .Hero_Data .Hero_Info h1{
-        width: 222px;
+        .Hero-section .Hero_Data .Hero_Info h1 {
+        width: 100%;
         font-size: 16px;
     }
 
-.Hero-section .Hero_Data .Hero_Icons {
-    width: 283px;    
-        gap: 15px;
+    .Hero-section .Hero_Data .Hero_Icons {
+        width: 100%;
+        gap: 10px;
     margin-top: 25px;   
  }
 
-     .Hero-section .Hero_Data .Hero_Icons div {
-    width: 122px;
-    height: 52px;
-    border-radius: 18px;
-     }
+      .Hero-section .Hero_Data .Hero_Icons div {
+        width: 108px;
+        height: 50px;
+        border-radius: 15px;
+    }
+
     .Hero_Icons div h3{
-        font-size: 12px;
+        font-size: 10px;
         font-weight: 700;
         font-style: bold;
     }
-    .Hero_Icons div img{
-        width: 37px;
-        height: 37px;
+        .Hero_Icons div img {
+        width: 30px;
+        height: 30px;
     }
-
     .About {
     width: 90%;
     margin: 0 auto;
+    }
+    .About .About_Info h2 {
+    font-size: 26px;
     }
 
     .About .About_All_Details{
@@ -332,9 +341,15 @@ body {
         height: 200px;
         margin-bottom: 10px;
     }
+    .Services {
+    width: 90%;
+    height: 728px;
+    display: block;
+    margin: 0 auto;
+    }
 
     .Services .Serv_Data {
-    width: 90%;
+    width: 100%;
     height: auto;
     display: block;
     justify-content: space-evenly;
@@ -343,11 +358,16 @@ body {
     }
 
     .Services .Serv_Image img {
-    width: 385px;
+        width: 90%;
+        display: block;
+        margin: 0 auto;
     }
 
+
     .Serv_Data .Serv_Info {
-    width: 90%;
+        display: block;
+        width: 100%;
+        margin: 50px auto;
     }
     .Serv_Data .Serv_Info h2 {
     font-size: 22px;
@@ -356,31 +376,52 @@ body {
     font-size: 15px;
     }
     .Serv_Data .Serv_Info ul {
-    font-size: 17px;
+    font-size: 15px;
+    }
+    .Features {
+    width: 100%;
+    display: block;
+    height: 633px;
+    margin: 50px 0;
     }
     .Data_Features {
-    width: 90%;
+    width: 100%;
     display: block;
     }
-    .Data_Features .Image_Features{
+    .Data_Features .Image_Features {
+        display: block;
+        margin: 0 auto;
+        width: 100%;
+    }
+        .Data_Features .Info_Features {
+        width: 90%;
         display: block;
         margin: 0 auto;
     }
-    .Data_Features .Info_Features {
-    width: 370px;
+        .Data_Features .Info_Features h2 {
+        font-size: 19px;
+        margin-bottom: 40px;
+        margin-top: 40px;
     }
-    .Data_Features .Info_Features h2 {
-    font-size: 22px;
-    margin-bottom: 40px;
-    margin-top: 30px;
-    }
+
     .Info_Features .Info_Flex {
         gap: 30px;
         margin-bottom: 35px;
     }
+        .Info_Features .Info_Flex img {
+        width: 55px;
+    }
+    .Info_Features .Info_Flex h3{
+        font-size: 17px;
+    }
+    .Info_Features .Info_Flex p{
+        font-size: 13px;
+    }
+
+
     .Footer {
     background-image: url(../images/Group\ 8.webp);
-    margin-top: 469px;
+    margin-top: 435px;
     }
     .Footer_Info {
     width: 100%;
