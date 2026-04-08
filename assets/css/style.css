@@ -99,6 +99,10 @@ body {
     align-items: center;
     gap: 5px;
 }
+.Hero-section .Hero_Data .Hero_Icons a{
+    text-decoration: none;
+    color: #194FA5;
+}
 
 .About{
     width: 75%;
