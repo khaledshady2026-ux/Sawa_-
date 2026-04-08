@@ -299,14 +299,14 @@ body {
     }
         .Hero-section .Hero_Data .Hero_Info h1 {
         width: 100%;
-        font-size: 16px;
+        font-size: 15px;
     }
 
-    .Hero-section .Hero_Data .Hero_Icons {
+        .Hero-section .Hero_Data .Hero_Icons {
         width: 100%;
-        gap: 10px;
-    margin-top: 25px;   
- }
+        gap: 15px;
+        margin: 25px auto;
+    }
 
       .Hero-section .Hero_Data .Hero_Icons div {
         width: 108px;
@@ -427,7 +427,7 @@ body {
 
     .Footer {
     background-image: url(../images/Group\ 8.webp);
-    margin-top: 435px;
+    margin-top: 285px;
     }
     .Footer_Info {
     width: 100%;
