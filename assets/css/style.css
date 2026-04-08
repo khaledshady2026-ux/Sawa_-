@@ -391,8 +391,14 @@ body {
     .Data_Features .Image_Features {
         display: block;
         margin: 0 auto;
-        width: 90%;
+        width: 100%;
     }
+        .Data_Features .Image_Features img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+    }
+
         .Data_Features .Info_Features {
         width: 90%;
         display: block;
