@@ -22,12 +22,22 @@ body {
     justify-content: space-between;
     align-items: center;
     margin: 40px auto;
-
+     position: relative;
+    overflow: hidden;
+    top: 0;
+    animation-name: NavData;
+    animation-duration: 1s;
+    animation-fill-mode:both;
 }
 
 .Navs_Data .logo {
     width: 124px;
     height: 96px;
+    transform: rotateY(0deg);
+    animation-name: Logo_Rtotae;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    
 }
 
 .Navs_Data .nav ul {
@@ -74,15 +84,24 @@ body {
     align-items: center;
     justify-content: space-between;
     margin: 60px auto;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 130px;
 }
 
 .Hero-section .Hero_Data .Hero_Img {
     position: relative;
     top: 132px;
+    animation-name: Mobile_Hero;
+    animation-duration: 1s;
+    animation-fill-mode: both;
+    animation-delay:1.2s ;
+    
 }
 
 .Hero-section .Hero_Data .Hero_Info {
     width: 575px;
+    margin-left: 0;
 
 }
 
@@ -138,7 +157,58 @@ body {
     display: flex;
     justify-content: space-around;
     margin-top: 50px;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
 }
+
+
+
+.About .About_All_Details .About1{
+
+}
+/* @keyframes About1 {
+    0%{
+        margin-right: -100%;
+    }
+    100%{
+        margin-right: 0;
+    }
+} */
+
+
+
+
+.About .About_All_Details .About2{
+
+
+}
+/* @keyframes About2 {
+    0%{
+       margin-top: -100%
+    }
+    100%{
+        margin-top: 0;
+    }
+} */
+
+
+
+
+.About .About_All_Details .About3{
+
+}
+/* @keyframes About3 {
+    0%{
+       margin-left: -100%;
+    }
+    100%{
+        margin-left: 0;
+    }
+} */
+
+
+
 
 .About .About_All_Details div {
     width: 350px;
@@ -158,17 +228,55 @@ body {
 
 .Services .Serv_Data {
     width: 90%;
-    height: 579px;
+    height: 600px;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
     margin: 60px auto;
+    position: relative;
+    overflow: hidden;
 }
+.Services .Serv_Data .Serv_Image{
+        margin-top: 0;
+        animation-name: Goo ;
+        animation-duration: 4s;
+        animation-iteration-count: infinite;
+}
+@keyframes Goo {
+        0%{
+            margin-top: 0;
+        }
+        50%{
+            margin-top: 30px;
+        }
+        100%{
+            margin-top: 0;
+        }
+    }
+
+/* @keyframes  Serv_Image {
+    0%{
+        margin-right: -150%;
+    }
+    100%{
+        margin-right: 0;
+    }
+} */
 
 .Serv_Data .Serv_Info {
     width: 600px;
     margin-top: 20px;
+ 
+
 }
+/* @keyframes  Serv_Infoe {
+    0%{
+        margin-left: -150%;
+    }
+    100%{
+        margin-left: 0;
+    }
+} */
 
 .Serv_Data .Serv_Info h2 {
     font-size: 32px;
@@ -202,6 +310,8 @@ body {
     display: flex;
     justify-content: space-evenly;
     margin: 0 auto;
+    position: relative;
+    overflow: hidden;
 }
 
 .Data_Features .Info_Features {
@@ -225,7 +335,7 @@ body {
 
 .Footer {
     width: 100%;
-    height: 720.499939px;
+    height: 770px;
     background-image: url("../images/Group\ 8.png");
     background-size: cover;
     align-content: end;
@@ -235,6 +345,8 @@ body {
     width: 90%;
     margin: 0 auto;
     margin-bottom: 30px;
+    position: relative;
+    overflow: hidden;
 }
 
 .Footer_Info {
@@ -456,11 +568,8 @@ body {
         width: 100%;
     }
 
-    .Data_Features .Image_Features img {
-        width: 70%;
-        display: block;
-        margin: 0 auto;
-    }
+
+
 
     .Data_Features .Info_Features {
         width: 90%;
@@ -490,6 +599,8 @@ body {
     .Info_Features .Info_Flex p {
         font-size: 13px;
     }
+
+   
 
     .Footer {
         background-image: url(../images/Group\ 8.webp);
@@ -546,3 +657,93 @@ body {
     }
 
 }
+
+/* ########################################### */
+/* ########### Start KeyFrameses ############## */
+/* ########################################### */
+/* 
+@keyframes NavData {
+    0%{
+        top: -100%;
+    }
+    100%{
+        top: 0;
+    }
+} */
+
+/* @keyframes Info_Hero {
+    0%{
+        margin-left: -100%;
+    }
+    100%{
+        margin-left: 0;
+    }
+} */
+
+/* @keyframes Mobile_Hero {
+    0%{
+        top: 822px;
+    }
+    100%{
+        top: 132px;
+    }
+} */
+
+@keyframes Logo_Rtotae {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+}
+
+
+
+
+/* ########################################### */
+/* ########### End KeyFrameses ############## */
+/* ########################################### */
+
+ .WhatsApp{
+        position: fixed;
+        bottom: 20px;
+        right: 20px;
+        transform: scale(1);
+        animation-name:whatssapp ;
+        animation-duration: 2s;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes whatssapp {
+        0%{
+             transform: scale(1);
+        }
+        50%{
+            transform: scale(1.4);
+        }
+        100%{
+            transform: scale(1);
+        }
+    }
+
+
+
+    
+    .Data_Features .Image_Features img {
+        width: 70%;
+        display: block;
+        margin: 0 auto;
+                transform: rotateY(0deg);
+        animation-name: Image5;
+        animation-duration: 2s;
+        animation-iteration-count:2;
+    }
+        @keyframes Image5 {
+    0%{
+        transform: rotateY(0deg);
+    }
+    100%{
+        transform: rotateY(360deg);
+    }
+   }

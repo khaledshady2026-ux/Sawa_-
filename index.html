@@ -5,10 +5,17 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Sawa</title>
-    <link rel="stylesheet" href="assets/css/style.css?=v7">
+   
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cairo&display=swap" rel="stylesheet">
+         <!-- Animate.css -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+<!-- WOW JS -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+ <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
@@ -51,9 +58,9 @@
     <section class="Hero-section">
         <div class="Hero_Data">
             <div class="Hero_Img">
-                <img src="assets/images/image 1.png" ">
+                <img src="assets/images/image 1.png" class="wow animate__animated animate__bounceInUp" data-wow-delay=".5s">
             </div>
-            <div class=" Hero_Info">
+            <div class="Hero_Info wow animate__animated animate__bounceInLeft">
                 <h1>تطبيق سوا هوتيل مش مجرد حجز .... دى تجربة إقامة ذكية</h1>
                 <div class="Hero_Icons">
                     <a href="#">
@@ -78,15 +85,15 @@
             <h2>تطبيقنا الجديد للفنادق بيغيّر مفهوم الحجز تمامًا.</h2>
         </div>
         <div class="About_All_Details">
-            <div>
+            <div class="About1 wow animate__animated animate__backInRight">
                 <img src="assets/images/Icon/review_3168622 1.svg">
                 <h3>آلاف الفنادق</h3>
             </div>
-            <div>
+            <div class="About2 wow animate__animated animate__backInDown"  data-wow-delay="1s">
                 <img src="assets/images/Icon/dollar-sign_18096327 1.svg">
                 <h3>أسعار تنافسية</h3>
             </div>
-            <div>
+            <div class="About3  wow animate__animated animate__backInLeft" data-wow-delay=".5s">
                 <img src="assets/images/Icon/sale_14124066 1.svg">
                 <h3>عروض حصرية</h3>
             </div>
@@ -96,10 +103,10 @@
 
     <section class="Services" id="Services">
         <div class="Serv_Data">
-            <div class="Serv_Image">
-                <img src="assets/images/Group 4.png">
+            <div class="Serv_Image  wow animate__animated animate__bounceInDown " data-wow-delay=".5s">
+                <img class="wow animate__animated animate__bounceInDown " data-wow-delay=".5s" src="assets/images/Group 4.png">
             </div>
-            <div class="Serv_Info">
+            <div class="Serv_Info wow animate__animated animate__bounceInRight ">
 
                 <h2> احجز بكل سهولة وراحة</h2>
                 <p>استمتع بتجربة حجز سريعة وواضحة، تقدر من خلالها تقارن وتختار وتحجز في ثواني—من غير أي تعقيد أو مفاجآت.
@@ -119,14 +126,14 @@
     <section class="Features" id="Features">
         <div class="Data_Features">
             <div class="Image_Features">
-                <img src="assets/images/image 2.png">
+                <img class="rr" src="assets/images/image 2.png">
             </div>
             <div class="Info_Features">
                 <div>
                     <h2>عشان تركز على الرحلة وتسيب الباقي علينا.</h2>
                 </div>
 
-                <div class="Info_Flex">
+                <div class="Info_Flex wow animate__animated animate__bounceInLeft">
                     <div>
                         <img src="assets/images/Icon/Group 6.svg">
                     </div>
@@ -137,7 +144,7 @@
                 </div>
 
 
-                <div class="Info_Flex">
+                <div class="Info_Flex wow animate__animated animate__bounceInLeft" data-wow-delay=".2s">
                     <div>
                         <img src="assets/images/Icon/Group 60.svg">
                     </div>
@@ -149,7 +156,7 @@
 
 
 
-                <div class="Info_Flex">
+                <div class="Info_Flex wow animate__animated animate__bounceInLeft" data-wow-delay=".4s">
                     <div>
                         <img src="assets/images/Icon/Group 600.svg">
                     </div>
@@ -163,12 +170,12 @@
         </div>
     </section>
 
-
+   
 
 
     <section class="Footer">
         <div class="Footer_Data">
-            <div class="Footer_Info">
+            <div class="Footer_Info wow animate__animated animate__bounceInUp"  data-wow-delay=".2s">
                 <h2>فريقنا جاهز يرد عليك بسرعة وبكل احترافية. تواصل معانا بالطريقة اللي تناسبك</h2>
                 <div class="Footer_Contact" id="Footer_Contact">
                     <div><img src="assets/images/Icon/telephone (3).svg"></div>
@@ -210,10 +217,17 @@
             <div class="Footer_Copyright">
                 <h3>copyright @ Sawa2025</h3>
             </div>
-
+            
 
         </div>
     </section>
+
+     <a href="#">
+        <img class="WhatsApp" width="50" src="assets/images/WhatsApp.svg.png" />
+     </a>
+     <script>
+              new WOW().init();
+              </script>
 </body>
 
 </html>
